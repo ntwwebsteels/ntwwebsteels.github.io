@@ -59,3 +59,18 @@ node build.js
 
 ## Deploy
 เป็น static site ล้วน — อัปโหลดโฟลเดอร์นี้ขึ้น host ใดก็ได้ (Netlify, Vercel, Cloudflare Pages, GitHub Pages, hosting ทั่วไป) โดยไม่ต้องมี server
+
+### 🟢 ตอนนี้ Live อยู่ที่ GitHub Pages
+- **URL:** https://ntwwebsteels.github.io/
+- **Repo:** https://github.com/ntwwebsteels/ntwwebsteels.github.io (public, serve จาก branch `main` root)
+
+### อัปเดตเว็บ (หลังแก้เนื้อหา/ข้อมูลติดต่อ)
+```
+node build.js              # ถ้าแก้ data/content.json หรือ build.js
+git add -A
+git commit -m "update content"
+git push
+```
+รอ ~1-2 นาที GitHub Pages จะ rebuild แล้วอัปเดตอัตโนมัติ
+
+> หมายเหตุ: `BASE` ใน build.js ยังชี้ไป `https://www.ntwsteel.co.th` (โดเมนจริงในอนาคต) — มีผลกับ canonical/OG/sitemap เท่านั้น ไม่กระทบการแสดงผลบน github.io ตอนย้ายไปโดเมนจริงค่อยเปลี่ยน `BASE` แล้ว build ใหม่
