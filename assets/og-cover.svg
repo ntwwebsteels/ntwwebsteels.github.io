@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="NTW Steel">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#161c24"/><stop offset="0.55" stop-color="#0b0f14"/><stop offset="1" stop-color="#000000"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <text x="100" y="300" font-family="Kanit,Segoe UI,sans-serif" font-weight="700" font-size="112" letter-spacing="-3" fill="#ffffff">NTW<tspan font-weight="300">SteeL</tspan></text>
+  <text x="104" y="372" font-family="'Noto Sans Thai',Segoe UI,sans-serif" font-weight="400" font-size="34" fill="#8aa0b4">ผู้ผลิตและจำหน่ายฟาสเทนเนอร์และงานเหล็กครบวงจร</text>
+  <text x="104" y="470" font-family="'Noto Sans Thai',Segoe UI,sans-serif" font-weight="500" font-size="26" fill="#c9d4de">J-Bolt · L-Bolt · แผ่นเพลท · สกรูน็อต · สกรูการ์ดเรล · งานสั่งผลิตพิเศษ</text>
+  <rect x="104" y="508" width="150" height="4" rx="2" fill="#0071e3"/>
+</svg>

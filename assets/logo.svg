@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" role="img" aria-label="NTWSteeL">
+  <style>
+    .n{font-family:'Kanit','Segoe UI',sans-serif;font-weight:700;letter-spacing:-1px}
+    .s{font-family:'Kanit','Segoe UI',sans-serif;font-weight:300;letter-spacing:-1px}
+  </style>
+  <text x="4" y="52" class="n" font-size="52" fill="#1d1d1f">NTW</text>
+  <text x="150" y="52" class="s" font-size="52" fill="#1d1d1f">SteeL</text>
+</svg>
